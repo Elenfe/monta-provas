@@ -1,0 +1,171 @@
+:host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 8px 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+
+.example-headers-align .mat-expansion-panel-header-title,
+.example-headers-align .mat-expansion-panel-header-description {
+  flex-basis: 0;
+}
+
+.example-headers-align .mat-expansion-panel-header-description {
+  justify-content: center;
+  align-items: center;
+}
+
+.example-headers-align .mat-form-field + .mat-form-field {
+  margin-left: 8px;
+}
+
+.mat-expansion-panel-header-title {
+  color: #fff;
+  margin-right: 16px;
+  justify-content: center;
+}
+
+mat-expansion-panel {
+  margin: 16px 0;
+  width: 90%;
+}
+
+mat-expansion-panel-header {
+  background: #000;
+}
+
+  .montar__prova{
+    border-radius: 29px;
+    color: #fff;
+    border: none;
+    background: #3795d2;
+    padding: 14px 23px 14px 23px;
+    font-size: 16px;
+    font-weight: 600;
+    position: fixed;
+    bottom: 160px;
+  }
+
+  .content {
+    display: flex;
+    margin: 140px auto 32px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.example-headers-align .mat-expansion-panel-header-title,
+.example-headers-align .mat-expansion-panel-header-description {
+  flex-basis: 0;
+}
+
+.example-headers-align .mat-expansion-panel-header-description {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.example-headers-align .mat-form-field + .mat-form-field {
+  margin-left: 8px;
+}
+
+  .flex-container {
+    width: 100%;
+  }
+
+  .treinamento {
+    position: absolute;
+    background: #fff;
+    border: none;
+    width: 100%;
+    height: 100%;
+    top: calc(100% - 47px);
+  }
+
+  .treinamento::before{
+    content: "";
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    background: red;
+    border-radius: 50%;
+    z-index: 9;
+    /* left: calc(50% - 51px); */
+  }
+
+  .treinamento legend {
+    text-align: center;
+    position: relative;
+    top: 50px;
+  }
+
+  .show__div {
+    top: 122px;
+    transition:all 0.9s ease;
+  }
+
+  .hide__div {
+    top: calc(100% - 47px);
+    transition:all 0.9s ease;
+  }
+
+
+  .items-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.items-grid li {
+    list-style: none;
+    border-radius: 8px;
+    height: 104px;
+    padding: 43px 0px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    text-align: center;
+    cursor: pointer;
+}
+
+.items-grid li span {
+    margin-top: 12px;
+
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+}
+
+.items-grid li img {
+  width: 70%;
+  max-width: 70px;
+}
+.items-grid li img,
+.items-grid li span {
+    pointer-events: none;
+
+}
